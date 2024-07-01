@@ -17,7 +17,7 @@ body {
     outline-style: solid;
 }
 
-.timeline_title {
+.headline {
     border: 5px solid #FFFDD0;
     background-color: #FFFDD0;
     border-radius: 100px;
@@ -48,16 +48,6 @@ body {
 
 .timeline-event p {
     margin: 5px 0 0 0;
-}
-
-.project_title {
-    border: 10px solid #FFFDD0;
-    background-color: #FFFDD0;
-    border-radius: 100px;
-    text-align: center;
-    font-size: 50px;
-    font-family: "Anton SC";
-    color: #000000;
 }
 
 th, td {
