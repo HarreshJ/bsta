@@ -5,19 +5,98 @@
 body {
     font-family: "Poppins";
     background-color: #25274D;
-    padding: 1rem 4rem;
+    padding: 1rem 2rem;
+}
+
+nav {
+    background-color: #FFFDD0;
+    padding: 10px;
+    border-radius: 20px; /* Rounded corners */
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    display: block;
+    position: relative;
+    z-index: 1; /* Ensure text is above the circle */
+}
+
+nav ul li::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border: 10px solid orange; /* Change border color to your desired color */
+    border-radius: 50%;
+    opacity: 0;
+    transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+    z-index: -1; /* Ensure circle is behind the text */
+}
+
+nav ul li:hover::after {
+    width: calc(100% + 20px); /* Adjust the width to extend beyond the text */
+    height: calc(100% + 20px); /* Adjust the height to extend beyond the text */
+    opacity: 1;
+}
+
+section {
+    padding: 20px;
+    margin: 50px 0;    
+    transition: opacity 0.3s ease; /* Smooth fade-in transition */
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+/* Additional CSS for the fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeInAnimation 1s ease forwards;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: Slide in from bottom */
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .main_heading {
     padding: 10px;
-    margin: 10px;
+    margin: 10px 10px;
     text-align: center;
     font-size: 60px;
     font-family: "Poppins";
     color: orange;
-    outline-color: #FFFDD0;
-    outline-width: 5px;
-    outline-style: solid;
+    transform: translate(0,17%)
 }
 
 .headline {
@@ -28,6 +107,11 @@ body {
     font-family: "Anton SC";
     font-size: 50px;
     color: black;
+}
+
+.brooklyn_history {
+    color: white;
+    font-size: 20px;
 }
 
 .timeline-container {
@@ -78,4 +162,49 @@ table {
     color: white;
     font-size: 20px;
     font-family: "Poppins";
+}
+
+.carousel {
+    position: relative;
+    max-width: 500px; /* Adjust max-width as needed */
+    max-height: px;
+    margin: 0 auto; /* Center carousel horizontally */
+    overflow: hidden;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%; /* Full width of carousel container */
+    overflow: hidden;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 2;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
 }
