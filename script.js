@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { year: '30/6/24', event: 'Visited the Smorgasburg Food Market in Prospect Park where I tasted a variety of food from different cultures. For instance, I tried the American smash burger, and then a couple of Japanese bao buns. For desert, we shared a Portuguese custard tart' },
         { year: '1/7/24', event: 'Developed my HTML/CSS/JS skills by creating this website, trying to focus more on compartmentalisation and improving the timetable to make it look nicer and then walked around Prospect Park, even seeing turtles in the lake! '},
         { year: '2/7/24', event: 'Further explored the local park and continued to develop React skills'},
-        { year: '3/7/24', event: 'Made a tic tac toe game using React'},
+        { year: '3/7/24', event: 'Made a tic tac toe game using React (link to the game: )'},
         { year: '4/7/24', event: 'Familiarised myself with Github and started to connect it to VS code for easier deployment of repositories (projects)'},
         { year: '5/7/24', event: 'something'},
         { year: '6/7/24', event: 'something'},
