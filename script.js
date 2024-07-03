@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { year: '6/7/24', event: 'something'},
         { year: '7/7/24', event: 'something'},
         { year: '8/7/24', event: 'something'},
+        { year: '9/7/24', event: 'something'},
         { year: '10/7/24', event: 'something'},
         { year: '11/7/24', event: 'something'},
         { year: '12/7/24', event: 'something'},
