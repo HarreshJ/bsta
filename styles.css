@@ -5,9 +5,21 @@
 body {
     font-family: "Poppins";
     background-color: #25274D;
-    padding-left: 20%;
-    padding-right: 20%;
 }
+
+/* Default padding for desktop */
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  
+  /* Remove padding for mobile devices */
+  @media (max-width: 768px) {
+    body {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
 
 nav {
     background-color: #FFFDD0;
