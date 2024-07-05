@@ -5,6 +5,8 @@
 body {
     font-family: "Poppins";
     background-color: #25274D;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 nav {
