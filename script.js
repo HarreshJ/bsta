@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { year: '3/7/24', event: 'Made a tic tac toe game using React (link to the game: )'},
         { year: '4/7/24', event: 'Independence day in America, so we went for a picnic in Lower Manhatten and watched the fireworks above the Hudson river (for the first time in 10 years). The park we were in fortunately allowed us to view both the New Jersey firework and the New York fireworks although both happened simultaneously. Every open space was packed with people, a few patriotically bearing flags, and the train lines were immovable for an hour and a half but overall it was a great experience!'},
         { year: '5/7/24', event: 'Familiarised myself with Github and started to connect it to VS code for easier deployment of repositories (projects)'},
-        { year: '6/7/24', event: 'something'},
+        { year: '6/7/24', event: 'Visited Bryant Park in Midtown and then Soho - the shopping district'},
         { year: '7/7/24', event: 'something'},
         { year: '8/7/24', event: 'something'},
         { year: '9/7/24', event: 'something'},
