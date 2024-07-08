@@ -171,6 +171,10 @@ table {
     color: #FFFFFF;
 }
 
+.infographic {
+    align-items: center;
+}
+
 .list_french {
     color: white;
     font-size: 20px;
