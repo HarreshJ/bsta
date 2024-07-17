@@ -24,6 +24,8 @@ body {
 
 nav {
     background-color: white;
+    position: fixed;
+    z-index: 1000;
     padding: 10px;
     border-radius: 20px; /* Rounded corners */
 }
