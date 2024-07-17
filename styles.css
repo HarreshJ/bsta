@@ -30,11 +30,22 @@ nav {
     border-radius: 20px; /* Rounded corners */
 }
 
-nav ul {
+/*nav ul {
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
+}*/
+
+nav {
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0;
+    background-color: #341f97;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; /* Ensure it stays on top of other content */
 }
 
 nav ul li {
