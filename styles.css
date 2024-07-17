@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Playwrite+DE+Grund:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&display=swap');
 
 body {
     font-family: "Poppins";
-    background-color: #25274D;
+    background-color: #008080;
 }
 
 /* Default padding for desktop */
@@ -23,29 +24,32 @@ body {
   }
 
 nav {
-    background-color: white;
+    background-color: #F2F3EE;
     position: fixed;
     z-index: 1000;
     padding: 10px;
     border-radius: 20px; /* Rounded corners */
+    font-family: 'Dangrek';
 }
 
-/*nav ul {
+nav ul {
     list-style-type: none;
     text-align: center;
     margin: 0;
     padding: 0;
-}*/
+
+}
 
 nav {
     position: -webkit-sticky; /* For Safari */
     position: sticky;
     top: 0;
-    background-color: #FFFFFF;
-    color: white;
-    padding: 10px 0;
+    background-color: #F2F3EE;
+    height: 65px;
+    color: #F2F3EE;
     text-align: center;
     z-index: 1000; /* Ensure it stays on top of other content */
+    font-size:25px;
 }
 
 nav ul li {
@@ -57,11 +61,11 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     padding: 10px 15px;
     display: block;
     position: relative;
-    z-index: 0; /* Ensure text is below the circle */
+    z-index: 0; 
 }
 
 nav ul li::after {
@@ -70,18 +74,19 @@ nav ul li::after {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
-    border: 10px solid orange; /* Change border color to your desired color */
-    border-radius: 50%;
+    width: 0px;
+    height: 0px;
+    border: 8px solid #13344C;
+    border-radius: 10px;
     opacity: 0;
     transition: width 0.3s ease, height 0.3s ease, opacity 0.3s ease;
-    z-index: -1; /* Ensure circle is behind the text */
+    z-index: -1; 
+
 }
 
 nav ul li:hover::after {
-    width: calc(100% + 20px); /* Adjust the width to extend beyond the text */
-    height: calc(100% + 20px); /* Adjust the height to extend beyond the text */
+    width: calc(90%); 
+    height: calc(90%); 
     opacity: 1;
 }
 
@@ -121,23 +126,23 @@ p {
     margin: 10px 10px;
     text-align: center;
     font-size: 60px;
-    font-family: "Alfa Slab One";
-    color: orange;
+    font-family: "Dangrek";
+    color: #13344C;
     transform: translate(0,17%)
 }
 
 .headline {
-    border: 5px solid white;
-    background-color: white;
+    border: 5px solid #F2F3EE;
+    background-color: #F2F3EE;
     border-radius: 100px;
     text-align: center;
-    font-family: "Anton SC";
+    font-family: 'Dangrek';
     font-size: 50px;
     color: black;
 }
 
 .brooklyn_history {
-    color: white;
+    color: #F2F3EE;
     font-size: 20px;
 }
 
@@ -150,8 +155,8 @@ p {
 .timeline-event {
     margin: 20px 0;
     padding: 20px;
-    background-color: white;
-    border-left: 10px solid orange;
+    background-color: #F2F3EE;
+    border-left: 10px solid #13344C;
     width: 80%;
 }
 
@@ -165,8 +170,8 @@ p {
 }
 
 th, td {
-    border: 10px solid orange;
-    background-color: white ;
+    border: 10px solid #13344C;
+    background-color: #F2F3EE ;
 } 
 
 td {
@@ -182,16 +187,16 @@ table {
 }
 
 .skills {
-    color: #FFFFFF;
+    color: #F2F3EE;
 }
 
 .extraInfo {
-    color: #FFFFFF;
-    font-size: 12px;
+    color: #F2F3EE;
+    font-size: 20px;
 }
 
 .list_french {
-    color: white;
+    color: #F2F3EE;
     font-size: 20px;
     font-family: "Poppins";
 }
@@ -199,7 +204,6 @@ table {
 .carousel {
     position: relative;
     max-width: 500px; /* Adjust max-width as needed */
-    max-height: 500px;
     margin: 0 auto; /* Center carousel horizontally */
     overflow: hidden;
 }
@@ -225,7 +229,7 @@ table {
     top: 50%;
     transform: translateY(-50%);
     background: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: #F2F3EE;
     border: none;
     cursor: pointer;
     padding: 10px;
