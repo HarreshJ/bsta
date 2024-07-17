@@ -48,7 +48,7 @@ nav ul li a {
     padding: 10px 15px;
     display: block;
     position: relative;
-    z-index: 1; /* Ensure text is above the circle */
+    z-index: 0; /* Ensure text is below the circle */
 }
 
 nav ul li::after {
