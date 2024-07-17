@@ -174,6 +174,11 @@ table {
     color: #FFFFFF;
 }
 
+.extraInfo {
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
 .list_french {
     color: white;
     font-size: 20px;
@@ -183,7 +188,7 @@ table {
 .carousel {
     position: relative;
     max-width: 500px; /* Adjust max-width as needed */
-    max-height: px;
+    max-height: 500px;
     margin: 0 auto; /* Center carousel horizontally */
     overflow: hidden;
 }
