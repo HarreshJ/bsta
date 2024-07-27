@@ -147,22 +147,6 @@ p {
     flex-direction: row;
 }
 
-.brooklyn_history {
-    color: #F2F3EE;
-    font-size: 20px;
-    background-color: #13344C;
-    width: 30%;
-    border: 15px solid #F2F3EE;
-    padding: 20%;
-    margin-left: -20%;
-    height: 5%;
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .timeline-container {
     display: flex;
     flex-direction: column;
