@@ -45,7 +45,7 @@ nav {
     position: sticky;
     top: 0;
     background-color: #F2F3EE;
-    height: 65px;
+    height: auto;
     color: #F2F3EE;
     text-align: center;
     z-index: 1000; /* Ensure it stays on top of other content */
